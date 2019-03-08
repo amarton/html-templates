@@ -77,6 +77,12 @@ p{
   color: #fff
 }
 
+
+.embed-container {
+  width:100%;
+  padding: 25px;
+}
+
 @media(max-width:550px) {
   p {
     padding-left:20px;
