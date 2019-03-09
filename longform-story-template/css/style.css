@@ -1,3 +1,5 @@
+/* STRUCTURAL ELEMENTS */
+
 BODY {
   font-family: 'PT Serif', serif;
 }
@@ -6,23 +8,64 @@ BODY {
   text-align:center;
 }
 
-p{
-  text-align:left;
-  line-height:180%;
+
+.embed-container {
+  width:100%;
+  padding: 25px;
 }
 
 .navbar {
   font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+  background: #000;
+  height:100px;
+  min-height: 100px;
+  padding-top:25px;
+  margin-top:100px;
+}
+
+/* LINK STYLES */
+
+a:link {
 
 }
+
+a:hover {
+
+}
+
+a:visited {
+
+}
+
+
+
+/* IMAGES */
 
 .hero-image{
     width:100%;
 }
 
+.stack-image {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
+}
+
+
+/* TYPOGRAPHY */
+
 .hed {
   font-size:3em;
   font-family: 'Poppins', sans-serif;
+}
+
+p{
+  text-align:left;
+  line-height:180%;
 }
 
 .byline {
@@ -30,7 +73,6 @@ p{
   text-transform:uppercase;
   margin-top:-10px;
   font-family: 'Poppins', sans-serif;
-
 }
 
 .intro-text {
@@ -48,13 +90,6 @@ p{
   padding-top:20px;
 }
 
-.stack-image {
-  width:100%;
-  max-width:900px;
-  margin:0 auto;
-  padding-top:30px;
-}
-
 .caption {
   width:100%;
   max-width:900px;
@@ -64,24 +99,13 @@ p{
   color:#999;
 }
 
-.footer {
-  background: #000;
-  height:100px;
-  min-height: 100px;
-  padding-top:25px;
-  margin-top:100px;
-}
-
 .footer p {
   font-family: 'Poppins', sans-serif;
   color: #fff
 }
 
 
-.embed-container {
-  width:100%;
-  padding: 25px;
-}
+/* RESPONSIVE */
 
 @media(max-width:550px) {
   p {
@@ -102,8 +126,6 @@ p{
   }
 
 }
-
-
 
 
 
