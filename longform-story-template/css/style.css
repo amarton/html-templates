@@ -8,6 +8,11 @@ BODY {
   text-align:center;
 }
 
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
 .embed-container {
   width:100%;
@@ -62,8 +67,23 @@ a:active {
   padding-top:30px;
 }
 
+.toc-image {
+  width:200px;
+}
+
 
 /* TYPOGRAPHY */
+
+.hero-text{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-weight:bold;
+  font-family: 'Poppins', sans-serif;
+  font-size:3em;
+}
 
 .hed {
   font-size:3em;
